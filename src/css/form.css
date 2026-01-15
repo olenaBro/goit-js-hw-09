@@ -1,0 +1,95 @@
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #11502a;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.feedback-form {
+  margin: 48px auto 0;
+  max-width: 480px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.feedback-form label > span:first-child {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2a2626;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #d1d5db;         
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0a0c11;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+  border-color: #9ca3af;
+  box-shadow: 0 0 0 3px rgba(3, 124, 63, 0.296);
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  outline: none;
+  border-color: #0c131d;            
+  box-shadow: 0 0 0 3px rgba(14, 79, 44, 0.3);
+  background-color: #ffffff;
+}
+
+.feedback-form input::placeholder,
+.feedback-form textarea::placeholder {
+  color: #9ca3af;
+  opacity: 1;
+}
+.feedback-form textarea {
+  min-height: 140px;
+  resize: none;
+}
+
+
+.feedback-form button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background-color: #3b82f6;          
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.feedback-form button:hover {
+  background-color: #2563eb;          
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.25);
+}
+
+.feedback-form button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.feedback-form button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.4);
+}
